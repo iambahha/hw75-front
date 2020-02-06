@@ -25,7 +25,6 @@ export const sendToEncode = () => {
 		}
 	}
 };
-
 export const sendToDecode = () => {
 	return (dispatch, getState) => {
 		const state = getState();
